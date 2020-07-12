@@ -1,0 +1,10 @@
+@mixin mq($break) {
+  @if $break == 'md' {
+    @media #{$break-md} {
+      @content;
+    }
+  }
+  @else {
+    @error "Sorry, no breakpoint was defined";
+  }
+}

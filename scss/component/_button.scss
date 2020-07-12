@@ -1,0 +1,51 @@
+
+.btn {
+    margin-top: 15px;
+    width: 100%;
+    color: $color-white;
+    border: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-radius: 5px;
+  }
+  
+  .default {
+    background-color: $color-link;
+    &:hover {
+      background: lighten($color-link,15%);
+      transition: .3s;
+    }
+  }
+  
+  .error {
+    background-color: #e4757a;
+    &:hover {
+      background: lighten(#e4757a,15%);
+      transition: .3s;
+    }
+  }
+  
+  .info {
+    background-color: #927bc1;
+    &:hover {
+      background: lighten(#927bc1,15%);
+      transition: .3s;
+    }
+  }
+  
+  .success {
+    background-color: #63cc82;
+    &:hover {
+      background: lighten(#63cc82,15%);
+      transition: .3s;
+    }
+  }
+  
+  .warning {
+    background-color: #fd7856;
+    &:hover {
+      background: lighten(#fd7856,15%);
+      transition: .3s;
+    }
+  }
+  
